@@ -40,7 +40,6 @@ giustedifila=0
 while len(lista)>0 and giustedifila<100:
     k=choice(lista)
     risposta=input(k["d"])
-    risposta=k["r"]
     if int(risposta)==k["r"]:
         k["s"]=k["s"]+1
         if k["s"]==5:
